@@ -10,28 +10,28 @@ Description: An implementation of the feature Selection procedure by Partitionin
             false negative rates) than other variable selection approaches. In addition, it can be flexibly 
             coupled with the solution paths of Lasso, adaptive Lasso, ridge regression, and other penalized 
             estimators.
-Version: 0.1.1
-Date: 2022-02-21
+Version: 0.2.0
+Date: 2023-10-21
 Authors@R: c(
   person(given = "Xiaorui (Jeremy)", family = "Zhu", email = "zhuxiaorui1989@gmail.com", role = c("aut", "cre")),
   person(given = "Yang", family = "Liu", email = "yliu23@fhcrc.org", role = c("aut")), 
   person(given = "Peng", family = "Wang", email = "wangp9@ucmail.uc.edu", role = c("aut"))
   )
 Maintainer: Xiaorui (Jeremy) Zhu <zhuxiaorui1989@gmail.com>
-URL: https://github.com/XiaoruiZhu/SPSP
+URL: https://xiaorui.site/SPSP/, https://github.com/XiaoruiZhu/SPSP
 BugReports: https://github.com/XiaoruiZhu/SPSP/issues
 License: GPL (>= 2)
 Encoding: UTF-8
-Depends: R (>= 3.5.0), glmnet, lars
-Imports: Rcpp (>= 1.0.7)
+Depends: R (>= 3.5.0)
+Imports: Rcpp (>= 1.0.7), glmnet, ncvreg, Matrix, lars
 LinkingTo: Rcpp
 Suggests: testthat (>= 3.0.0), MASS
 Config/testthat/edition: 3
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.3
 NeedsCompilation: yes
-Packaged: 2022-02-21 15:02:16 UTC; dale-
+Packaged: 2023-10-22 17:01:47 UTC; xiaorui
 Author: Xiaorui (Jeremy) Zhu [aut, cre],
   Yang Liu [aut],
   Peng Wang [aut]
 Repository: CRAN
-Date/Publication: 2022-02-22 00:58:48 UTC
+Date/Publication: 2023-10-22 17:20:02 UTC
